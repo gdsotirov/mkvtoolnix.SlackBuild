@@ -1,0 +1,13 @@
+mkvtoolnix: MKVToolNix (a set of command line for working with Matroska files)
+mkvtoolnix: 
+mkvtoolnix: MKVToolNix is a set of command line tools to create, alter and
+mkvtoolnix: inspect Matroska files under Linux, other Unices and Windows.
+mkvtoolnix:
+mkvtoolnix:  * mkvmerge is a tool to create Matroska files from other formats
+mkvtoolnix:  * mkvinfo allows one to get information about the tracks in a
+mkvtoolnix:    Matroska file
+mkvtoolnix:  * mkvextract can extract tracks from Matroska files to other formats
+mkvtoolnix:  * mkvpropedit for modifying the properties of existing Matroska
+mkvtoolnix:    files without a complete remux
+mkvtoolnix:
+mkvtoolnix: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
