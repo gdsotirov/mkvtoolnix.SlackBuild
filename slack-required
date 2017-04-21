@@ -1,0 +1,14 @@
+boost >= 1.42.0
+bzip2 >= 1.0.5
+cxxlibs >= 6.0.13 | gcc-g++ >= 4.4.4
+expat >= 2.0.1
+file >= 5.04
+flac >= 1.2.1
+gcc >= 4.4.4
+glibc-solibs >= 2.11.1
+libebml >= 1.2.0
+libmatroska >= 1.1.0
+libogg >= 1.1.4
+libvorbis >= 1.2.3
+lzo >= 2.02
+zlib >= 1.2.3
