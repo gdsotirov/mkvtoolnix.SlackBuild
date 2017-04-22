@@ -27,4 +27,4 @@ libxcb >= 1.6
 pango >= 1.26.2
 pixman >= 0.16.6
 util-linux-ng >= 2.17.2
-wxwidgets >= 2.9.1
+wxwidgets >= 2.8.11
