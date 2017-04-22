@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: mkvtoolnix.SlackBuild,v 1.2 2017/04/22 11:57:24 gsotirov Exp $
+# $Id: mkvtoolnix.SlackBuild,v 1.3 2017/04/22 17:41:57 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=mkvtoolnix
-VERSION=5.0.1
+VERSION=6.4.1
 ARCH=${ARCH:-i486}
 BUILD=${BUILD:-1}
 
@@ -64,13 +64,13 @@ fi
 ./autogen.sh || exit 51
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
-./configure --prefix=/usr \
+./configure --build=${ARCH}-slackware-linux \
+            --host=${ARCH}-slackware-linux \
+            --prefix=/usr \
             --sysconfdir=/etc \
             --mandir=/usr/man \
-	    --enable-lzo \
-	    --enable-bz2 \
-	    --enable-gui \
-	    --enable-wxwidgets || exit 5
+            --enable-gui \
+            --enable-wxwidgets || exit 5
 
 # Build, check & install
 rake pkgdatadir=/usr/doc/$NAME-$VERSION V=1 || exit 6
