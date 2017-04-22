@@ -1,14 +1,18 @@
-boost >= 1.42.0
-bzip2 >= 1.0.5
-cxxlibs >= 6.0.13 | gcc-g++ >= 4.4.4
+boost >= 1.45.0
+bzip2 >= 1.0.6
+curl >= 7.21.4
+cxxlibs >= 6.0.14 | gcc-g++ >= 4.5.2
+cyrus-sasl >= 2.1.23
 expat >= 2.0.1
-file >= 5.04
+file >= 5.05
 flac >= 1.2.1
-gcc >= 4.4.4
-glibc-solibs >= 2.11.1
-libebml >= 1.2.0
-libmatroska >= 1.1.0
-libogg >= 1.1.4
-libvorbis >= 1.2.3
-lzo >= 2.02
-zlib >= 1.2.3
+gcc >= 4.5.2
+glibc-solibs >= 2.13
+libebml >= 1.2.2
+libmatroska >= 1.3.0
+libogg >= 1.2.2
+libvorbis >= 1.3.2
+lzo >= 2.06
+openldap >= 2.4.23
+openssl >= 0.9.8r | openssl-solibs >= 0.9.8r
+zlib >= 1.2.5
