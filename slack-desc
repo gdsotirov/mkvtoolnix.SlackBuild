@@ -10,4 +10,6 @@ mkvtoolnix:  * mkvextract can extract tracks from Matroska files to other format
 mkvtoolnix:  * mkvpropedit for modifying the properties of existing Matroska
 mkvtoolnix:    files without a complete remux
 mkvtoolnix:
+mkvtoolnix: Note: This package does not include GUI tools as they require Qt5.
+mkvtoolnix:
 mkvtoolnix: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
