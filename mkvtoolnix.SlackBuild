@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: mkvtoolnix.SlackBuild,v 1.10 2017/10/04 07:40:44 gsotirov Exp $
+# $Id: mkvtoolnix.SlackBuild,v 1.11 2017/10/17 12:12:34 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=mkvtoolnix
-VERSION=16.0.0
+VERSION=17.0.0
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
